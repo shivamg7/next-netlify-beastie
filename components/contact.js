@@ -2,18 +2,18 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Counter from '@components/Counter'
+import ContactForm from '@components/ContactForm'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next Starter!</title>
+        <title>Contact Info Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header />
-        <Counter/>
+        Contact Me!
       </main>
 
       <Footer />
