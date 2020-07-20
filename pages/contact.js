@@ -14,6 +14,7 @@ export default function Home() {
 
       <main>
         Contact Me!
+        <ContactForm/>
       </main>
 
       <Footer />
